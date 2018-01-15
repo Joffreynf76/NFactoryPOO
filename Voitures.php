@@ -6,12 +6,12 @@
  * Time: 16:15
  */
 
-class Voitures
+class Voitures extends Vehicules
 {
-    public $couleur;
+
     public $roues = 4;
     public $marque;
-    public $masse;
+
 
     public function demarrer(){
         echo "Je demarre";

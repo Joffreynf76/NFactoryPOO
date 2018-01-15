@@ -1,5 +1,10 @@
 <?php
+include_once ("Vehicules.php");
 include_once ("Voitures.php");
+include_once ("bidon.php");
+
+bidon::afficherMessage();
+
 
 $voiture1 = new Voitures();
 
